@@ -1,11 +1,9 @@
-# Node refresh
+# Docker / Kube infra test for scalable node app
 
 Implementation test of node app using express and bee-queue. This is multi package app with a shared library using lerna.
 Infrastructure is managed by docker-compose or kubernetes.
 
 This repo is for experimentation and learning purpose. It is not production ready, but it illustrate general architecture for scalable node app.
-
-
 
 ## JS App
 
