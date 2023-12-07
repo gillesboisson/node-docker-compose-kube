@@ -1,0 +1,1134 @@
+Script started on 2023-12-03 10:16:25+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="116" LINES="60"]
+[1m[7m%[27m[1m[0m                                                                                                                    ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hscript stop dev[3C[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                    ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../Dc  dc  script.sh[1m [0m[0m stop dev[?1l>[?2004l
+]2;./script.sh stop dev]1;./script.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 0/0
+ ⠋ Container infra-db-1     Stopping                                                                           [34m0.1s [0m
+ ⠋ Container infra-redis-1  Stopping                                                                           [34m0.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ ⠙ Container infra-db-1     Stopping                                                                           [34m0.2s [0m
+ ⠙ Container infra-redis-1  Stopping                                                                           [34m0.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container infra-db-1     [32mRemoved[0m                                                                            [34m0.3s [0m
+ ⠹ Container infra-redis-1  Stopping                                                                           [34m0.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container infra-db-1     [32mRemoved[0m                                                                            [34m0.3s [0m
+ ⠸ Container infra-redis-1  Stopping                                                                           [34m0.4s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                                           [34m0.3s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                                           [34m0.4s [0m
+ ⠋ Network infra_private-nw  Removing                                                                          [34m0.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                                           [34m0.3s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                                           [34m0.4s [0m
+ ⠙ Network infra_private-nw  Removing                                                                          [34m0.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                                           [34m0.3s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                                           [34m0.4s [0m
+ ⠹ Network infra_private-nw  Removing                                                                          [34m0.3s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                                           [34m0.3s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                                           [34m0.4s [0m
+ [32m✔[0m Network infra_private-nw  [32mRemoved[0m                                                                           [34m0.3s [0m
+[?25h[1m[7m%[27m[1m[0m                                                                                                                    ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../script.sh[1m [0m[0m start dev_ devd devb devs dev[?1l>[?2004l
+]2;./script.sh start_dbs dev]1;./script.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                                           [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 2/1
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                                           [34m0.1s [0m
+ [32m✔[0m Container infra-db-1      [32mCreated[0m                                                                           [34m0.0s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                                           [34m0.1s [0m
+ [32m✔[0m Container infra-db-1      [32mCreated[0m                                                                           [34m0.0s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                                           [34m0.1s [0m
+ [32m✔[0m Container infra-db-1      [32mStarted[0m                                                                           [34m0.0s [0m
+[?25h[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container infra-redis-1  [32mCreated[0m                                                                            [34m0.0s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ [32m✔[0m Container infra-redis-1  [32mCreated[0m                                                                            [34m0.0s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ [32m✔[0m Container infra-redis-1  [32mStarted[0m                                                                            [34m0.0s [0m
+[?25h[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container infra-db-1  [32mRunning[0m                                                                               [34m0.0s [0m
+[?25h[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                                            [34m0.0s [0m
+[?25hwaiting for db
+db (172.20.0.2:5432) open
+[1m[7m%[27m[1m[0m                                                                                                                    ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m pping fb  db[?1l>[?2004l
+]2;ping db]1;pingping: db: Name or service not known
+[1m[7m%[27m[1m[0m                                                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m lls -all[?1l>[?2004l
+]2;ls --color=tty -all]1;lstotal 596
+drwxrwxr-x   9 gillesboisson gillesboisson   4096 Dec  3 10:16 [0m[01;34m.[0m
+drwxrwxr-x  35 gillesboisson gillesboisson   4096 Nov 28 18:15 [01;34m..[0m
+drwxrwxr-x   4 gillesboisson gillesboisson   4096 Nov 30 17:00 [01;34mapps[0m
+drwxrwxr-x   2 gillesboisson gillesboisson   4096 Nov 30 09:52 [01;34mbackups[0m
+-rw-rw-r--   1 gillesboisson gillesboisson    672 Nov 29 13:34 .eslintrc.js
+drwxrwxr-x   7 gillesboisson gillesboisson   4096 Nov 30 15:05 [01;34m.git[0m
+-rw-rw-r--   1 gillesboisson gillesboisson    116 Nov 30 16:56 .gitignore
+drwxrwxr-x   3 gillesboisson gillesboisson   4096 Nov 30 09:30 [01;34minfra[0m
+-rw-rw-r--   1 gillesboisson gillesboisson     98 Nov 30 09:11 lerna.json
+drwxrwxr-x   4 gillesboisson gillesboisson   4096 Dec  3 09:53 [01;34mlibs[0m
+drwxrwxr-x 963 gillesboisson gillesboisson  36864 Dec  3 10:08 [01;34mnode_modules[0m
+-rw-rw-r--   1 gillesboisson gillesboisson    656 Nov 30 15:26 package.json
+-rw-rw-r--   1 gillesboisson gillesboisson    226 Nov 29 14:22 .prettierrc
+-rwxrwxr-x   1 gillesboisson gillesboisson   5597 Dec  3 10:20 [01;32mscript.sh[0m
+-rw-rw-r--   1 gillesboisson gillesboisson   8192 Dec  3 10:18 stop
+drwxrwxr-x   3 gillesboisson gillesboisson   4096 Nov 30 09:51 [01;34mvolumes[0m
+-rw-rw-r--   1 gillesboisson gillesboisson 497994 Dec  3 10:05 yarn.lock
+[1m[7m%[27m[1m[0m                                                                                                                ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7msource[27m[27ms[27mo[27mu[27mr[27mc[27me "./sou   no  do  
+[01;34mapps[0m/          [01;34minfra[0m/         [01;34mlibs[0m/          package.json   stop           yarn.lock                   
+[J[01;34mbackups[0m/       [Jlerna.json     [J[01;34mnode_modules[0m/  [J[01;32mscript.sh[0m*     [J[01;34mvolumes[0m/       [J                          [A[A[0m[27m[24m[33Csource "./[Kapps[1m/[0m
+[7mapps/        [0m  [01;34minfra[0m/         [01;34mlibs[0m/          package.json   stop           yarn.lock                   [K
+[J[01;34mbackups[0m/       [Jlerna.json     [J[01;34mnode_modules[0m/  [J[01;32mscript.sh[0m*     [J[01;34mvolumes[0m/       [J                          [A[A[0m[27m[24m[33Csource "./apps[1m/[0m[K
+[7mapps/        [0m  [7mapps/        [0m  [A[0m[27m[24m[33Csource "./apps[1m/[0m[Kback[0mups[1m/[0m
+[01;34mapps[0m/          [1B[7mbackups/     [0m  [A[A[0m[27m[24m[33Csource "./backups[1m/[0m[K[8Dinfra[1m/[0m [0m 
+[15C[7minfra/       [0m  [1B[01;34mbackups[0m/       [A[A[0m[27m[24m[33Csource "./infra[1m/[0m[K
+[J[A[49C[0m /docker
+[J[J[01;34mdocker[0m/                    [Jdocker-compose.base.yml    [Jdocker-compose.common.yml  [Jdocker-compose.dev.yml   [J[A[0m[27m[24m[33Csource "./infra/docker[K/
+[J[01;34menv[0m/                    nginx.dockerfile        php.dockerfile          [01;34msql[0m/                  
+[J[01;34mnginx[0m/                  [Jnginx.local.dockerfile  [Jphp.local.dockerfile    [J                      [A[A[0m[27m[24m[33Csource "./infra/docker/[Kenv[1m/[0m
+[7menv/                  [0m  nginx.dockerfile        php.dockerfile          [01;34msql[0m/                  [K
+[J[01;34mnginx[0m/                  [Jnginx.local.dockerfile  [Jphp.local.dockerfile    [J                      [A[A[0m[27m[24m[33Csource "./infra/docker/env[1m/[0m[K
+[7menv/                  [0m  [7menv/                  [0m  [A[0m[27m[24m[33Csource "./infra/docker/env[1m/[0m[K
+[J[A[60C[0m /env.dev"[1m [0m[0m [?1l>[?2004l
+[J]2;source "./infra/docker/env/env.dev"]1;source[1m[7m%[27m[1m[0m                                                                                                                ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccd apps[1m/[0m[0m/no  w
+[J[01;34mweb[0m/     [J[01;34mworker[0m/[J[A[0m[27m[24m[33Ccd apps/w[Keb[1m/[0m[0m [?1l>[?2004l
+[J]2;cd apps/web]1;cd[1m[7m%[27m[1m[0m                                                                                                                ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;32m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hyyarn start:dev[?1l>[?2004l
+]2;yarn start:dev]1;yarn[2K[1G[1myarn run v1.22.19[22m
+[2K[1G[2m$ yarn nodemon -e ts --exec 'yarn tsc && node ./build/app.js'[22m
+[2K[1G[2m$ /home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/.bin/nodemon -e ts --exec 'yarn tsc && node ./build/app.js'[22m
+[33m[nodemon] 3.0.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts[39m
+[32m[nodemon] starting `yarn tsc && node ./build/app.js`[39m
+[2K[1G[2m$ /home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/.bin/tsc[22m
+config.database {
+  host: [32m'localhost'[39m,
+  port: [33m5432[39m,
+  database: [32m'postgres'[39m,
+  username: [32m'postgres'[39m,
+  password: [32m'postgres'[39m
+}
+ConnectionError [SequelizeConnectionError]: password authentication failed for user "postgres"
+    at Client._connectionCallback (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4msequelize[24m/lib/dialects/postgres/connection-manager.js:143:24)
+    at Client._handleErrorWhileConnecting (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg[24m/lib/client.js:327:19)
+    at Client._handleErrorMessage (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg[24m/lib/client.js:347:19)
+[90m    at Connection.emit (node:events:511:28)[39m
+    at /home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg[24m/lib/connection.js:117:12
+    at Parser.parse (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:40:17)
+    at Socket.<anonymous> (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/index.js:11:42)
+[90m    at Socket.emit (node:events:511:28)[39m
+[90m    at addChunk (node:internal/streams/readable:332:12)[39m
+[90m    at readableAddChunk (node:internal/streams/readable:305:9)[39m {
+  parent: error: password authentication failed for user "postgres"
+      at Parser.parseErrorMessage (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:287:98)
+      at Parser.handlePacket (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:126:29)
+      at Parser.parse (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:39:38)
+      at Socket.<anonymous> (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/index.js:11:42)
+  [90m    at Socket.emit (node:events:511:28)[39m
+  [90m    at addChunk (node:internal/streams/readable:332:12)[39m
+  [90m    at readableAddChunk (node:internal/streams/readable:305:9)[39m
+  [90m    at Readable.push (node:internal/streams/readable:242:10)[39m
+  [90m    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)[39m {
+    length: [33m104[39m,
+    severity: [32m'FATAL'[39m,
+    code: [32m'28P01'[39m,
+    detail: [90mundefined[39m,
+    hint: [90mundefined[39m,
+    position: [90mundefined[39m,
+    internalPosition: [90mundefined[39m,
+    internalQuery: [90mundefined[39m,
+    where: [90mundefined[39m,
+    schema: [90mundefined[39m,
+    table: [90mundefined[39m,
+    column: [90mundefined[39m,
+    dataType: [90mundefined[39m,
+    constraint: [90mundefined[39m,
+    file: [32m'auth.c'[39m,
+    line: [32m'323'[39m,
+    routine: [32m'auth_failed'[39m
+  },
+  original: error: password authentication failed for user "postgres"
+      at Parser.parseErrorMessage (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:287:98)
+      at Parser.handlePacket (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:126:29)
+      at Parser.parse (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:39:38)
+      at Socket.<anonymous> (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/index.js:11:42)
+  [90m    at Socket.emit (node:events:511:28)[39m
+  [90m    at addChunk (node:internal/streams/readable:332:12)[39m
+  [90m    at readableAddChunk (node:internal/streams/readable:305:9)[39m
+  [90m    at Readable.push (node:internal/streams/readable:242:10)[39m
+  [90m    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)[39m {
+    length: [33m104[39m,
+    severity: [32m'FATAL'[39m,
+    code: [32m'28P01'[39m,
+    detail: [90mundefined[39m,
+    hint: [90mundefined[39m,
+    position: [90mundefined[39m,
+    internalPosition: [90mundefined[39m,
+    internalQuery: [90mundefined[39m,
+    where: [90mundefined[39m,
+    schema: [90mundefined[39m,
+    table: [90mundefined[39m,
+    column: [90mundefined[39m,
+    dataType: [90mundefined[39m,
+    constraint: [90mundefined[39m,
+    file: [32m'auth.c'[39m,
+    line: [32m'323'[39m,
+    routine: [32m'auth_failed'[39m
+  }
+}
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+^C
+[1m[7m%[27m[1m[0m                                                                                                                ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;31m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004heexho   e ecjo  ho DB_HOST$DB_HOST[?1l>[?2004l
+]2;echo $DB_HOST]1;echodb
+[1m[7m%[27m[1m[0m                                                                                                                ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;32m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;31m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004haarn a  yyarn sart   tart:dev[?1l>[?2004l
+]2;yarn start:dev]1;yarn[2K[1G[1myarn run v1.22.19[22m
+[2K[1G[2m$ yarn nodemon -e ts --exec 'yarn tsc && node ./build/app.js'[22m
+[2K[1G[2m$ /home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/.bin/nodemon -e ts --exec 'yarn tsc && node ./build/app.js'[22m
+[33m[nodemon] 3.0.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts[39m
+[32m[nodemon] starting `yarn tsc && node ./build/app.js`[39m
+[2K[1G[2m$ /home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/.bin/tsc[22m
+config.database {
+  host: [32m'localhost'[39m,
+  port: [33m5432[39m,
+  database: [32m'postgres'[39m,
+  username: [32m'postgres'[39m,
+  password: [32m'postgres'[39m
+}
+ConnectionError [SequelizeConnectionError]: password authentication failed for user "postgres"
+    at Client._connectionCallback (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4msequelize[24m/lib/dialects/postgres/connection-manager.js:143:24)
+    at Client._handleErrorWhileConnecting (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg[24m/lib/client.js:327:19)
+    at Client._handleErrorMessage (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg[24m/lib/client.js:347:19)
+[90m    at Connection.emit (node:events:511:28)[39m
+    at /home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg[24m/lib/connection.js:117:12
+    at Parser.parse (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:40:17)
+    at Socket.<anonymous> (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/index.js:11:42)
+[90m    at Socket.emit (node:events:511:28)[39m
+[90m    at addChunk (node:internal/streams/readable:332:12)[39m
+[90m    at readableAddChunk (node:internal/streams/readable:305:9)[39m {
+  parent: error: password authentication failed for user "postgres"
+      at Parser.parseErrorMessage (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:287:98)
+      at Parser.handlePacket (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:126:29)
+      at Parser.parse (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:39:38)
+      at Socket.<anonymous> (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/index.js:11:42)
+  [90m    at Socket.emit (node:events:511:28)[39m
+  [90m    at addChunk (node:internal/streams/readable:332:12)[39m
+  [90m    at readableAddChunk (node:internal/streams/readable:305:9)[39m
+  [90m    at Readable.push (node:internal/streams/readable:242:10)[39m
+  [90m    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)[39m {
+    length: [33m104[39m,
+    severity: [32m'FATAL'[39m,
+    code: [32m'28P01'[39m,
+    detail: [90mundefined[39m,
+    hint: [90mundefined[39m,
+    position: [90mundefined[39m,
+    internalPosition: [90mundefined[39m,
+    internalQuery: [90mundefined[39m,
+    where: [90mundefined[39m,
+    schema: [90mundefined[39m,
+    table: [90mundefined[39m,
+    column: [90mundefined[39m,
+    dataType: [90mundefined[39m,
+    constraint: [90mundefined[39m,
+    file: [32m'auth.c'[39m,
+    line: [32m'323'[39m,
+    routine: [32m'auth_failed'[39m
+  },
+  original: error: password authentication failed for user "postgres"
+      at Parser.parseErrorMessage (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:287:98)
+      at Parser.handlePacket (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:126:29)
+      at Parser.parse (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/parser.js:39:38)
+      at Socket.<anonymous> (/home/gillesboisson/Projects/sandbox/nodejs-refresh/node_modules/[4mpg-protocol[24m/dist/index.js:11:42)
+  [90m    at Socket.emit (node:events:511:28)[39m
+  [90m    at addChunk (node:internal/streams/readable:332:12)[39m
+  [90m    at readableAddChunk (node:internal/streams/readable:305:9)[39m
+  [90m    at Readable.push (node:internal/streams/readable:242:10)[39m
+  [90m    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)[39m {
+    length: [33m104[39m,
+    severity: [32m'FATAL'[39m,
+    code: [32m'28P01'[39m,
+    detail: [90mundefined[39m,
+    hint: [90mundefined[39m,
+    position: [90mundefined[39m,
+    internalPosition: [90mundefined[39m,
+    internalQuery: [90mundefined[39m,
+    where: [90mundefined[39m,
+    schema: [90mundefined[39m,
+    table: [90mundefined[39m,
+    column: [90mundefined[39m,
+    dataType: [90mundefined[39m,
+    constraint: [90mundefined[39m,
+    file: [32m'auth.c'[39m,
+    line: [32m'323'[39m,
+    routine: [32m'auth_failed'[39m
+  }
+}
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+^C
+[1m[7m%[27m[1m[0m                                                                                                                ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;31m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;31m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hnnode -v[?1l>[?2004l
+]2;node -v]1;nodev20.1.0
+[1m[7m%[27m[1m[0m                                                                                                                ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;32m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hnode -v[?1l>[?2004l
+]2;node -v]1;nodev20.1.0
+[1m[7m%[27m[1m[0m                                                                                                                ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;32m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hnode -v[?1l>[?2004l
+]2;node -v]1;nodev20.1.0
+[1m[7m%[27m[1m[0m                                                                                                                ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;32m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m 
+fwd-i-search: _[K[A[7C[1B[K[A[22C[?2004l[1B[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;31m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hyyarn start[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;31m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccd ../../[?1l>[?2004l
+]2;cd ../../]1;cd[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../script.sh[1m [0m[0m dc up web[?1l>[?2004l
+]2;./script.sh dc up web]1;./script.sh--- environment: up
+
+Couldn't find env file: /home/gillesboisson/Projects/sandbox/nodejs-refresh/infra/docker/env/env.up
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./script.sh dc up webdup webeup webvup web up web[?1l>[?2004l
+]2;./script.sh dc dev up web]1;./script.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 0/0
+ ⠙ web Pulling                                                                            [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠹ web Pulling                                                                            [34m0.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠸ web Pulling                                                                            [34m0.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠼ web Pulling                                                                            [34m0.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠴ web Pulling                                                                            [34m0.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠦ web Pulling                                                                            [34m0.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠧ web Pulling                                                                            [34m0.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠇ web Pulling                                                                            [34m0.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠏ web Pulling                                                                            [34m0.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠋ web Pulling                                                                            [34m1.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠙ web Pulling                                                                            [34m1.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠹ web Pulling                                                                            [34m1.2s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ [31m[1m✘[0m web Error [31m[1m[0m                                                                             [34m1.3s [0m
+[?25hError response from daemon: manifest for node:20.1.0-alpine3.14 not found: manifest unknown: manifest unknown
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./script.sh dc dev up web[?1l>[?2004l
+]2;./script.sh dc dev up web]1;./script.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 0/0
+ ⠙ web Pulling                                                                            [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠹ web Pulling                                                                            [34m0.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠸ web Pulling                                                                            [34m0.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠼ web Pulling                                                                            [34m0.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠴ web Pulling                                                                            [34m0.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠦ web Pulling                                                                            [34m0.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠧ web Pulling                                                                            [34m0.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠇ web Pulling                                                                            [34m0.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠏ web Pulling                                                                            [34m0.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠋ web Pulling                                                                            [34m1.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠙ web Pulling                                                                            [34m1.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠹ web Pulling                                                                            [34m1.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠸ web Pulling                                                                            [34m1.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠼ web Pulling                                                                            [34m1.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠴ web Pulling                                                                            [34m1.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ ⠦ web [33m4 layers[0m [[32m⠀⠀⠀⠀[0m]      0B/0B      Pulling                                            [34m1.6s [0m
+   ⠋ 1207c741d8c9 Pulling fs layer                                                        [34m0.0s [0m
+   ⠋ 854bbbc098b2 Pulling fs layer                                                        [34m0.0s [0m
+   ⠋ d30ccb81ed57 Pulling fs layer                                                        [34m0.0s [0m
+   ⠋ 74a11634af6c Waiting                                                                 [34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
+ ⠧ web [33m4 layers[0m [[32m⠀⠀⠀⠀[0m]      0B/0B      Pulling                                            [34m1.7s [0m
+   ⠋ 1207c741d8c9 Pulling fs layer                                                        [34m0.1s [0m
+   ⠋ 854bbbc098b2 Pulling fs layer                                                        [34m0.1s [0m
+   ⠋ d30ccb81ed57 Pulling fs layer                                                        [34m0.1s [0m
+   ⠋ 74a11634af6c Waiting                                                                 [34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
+ ⠇ web [33m4 layers[0m [[32m⠀⠀⠀⠀[0m]      0B/0B      Pulling                                            [34m1.8s [0m
+   ⠙ 1207c741d8c9 Pulling fs layer                                                        [34m0.2s [0m
+   ⠙ 854bbbc098b2 Pulling fs layer                                                        [34m0.2s [0m
+   ⠙ d30ccb81ed57 Pulling fs layer                                                        [34m0.2s [0m
+   ⠙ 74a11634af6c Waiting                                                                 [34m0.2s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
+ ⠏ web [33m4 layers[0m [[32m⠀⠀⠀⠀[0m]      0B/0B      Pulling                                            [34m1.9s [0m
+   ⠹ 1207c741d8c9 Pulling fs layer                                                        [34m0.3s [0m
+   ⠹ 854bbbc098b2 Pulling fs layer                                                        [34m0.3s [0m
+   ⠹ d30ccb81ed57 Pulling fs layer                                                        [34m0.3s [0m
+   ⠹ 74a11634af6c Waiting                                                                 [34m0.3s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
+ ⠋ web [33m4 layers[0m [[32m⠀⠀⠀⠀[0m]      0B/0B      Pulling                                            [34m2.0s [0m
+   ⠸ 1207c741d8c9 Pulling fs layer                                                        [34m0.4s [0m
+   ⠸ 854bbbc098b2 Pulling fs layer                                                        [34m0.4s [0m
+   ⠸ d30ccb81ed57 Pulling fs layer                                                        [34m0.4s [0m
+   ⠸ 74a11634af6c Waiting                                                                 [34m0.4s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
+ ⠙ web [33m4 layers[0m [[32m⠀⠀⠀⠀[0m] 484.7kB/47.68MB Pulling                                            [34m2.1s [0m
+   ⠼ 1207c741d8c9 Downloading  34.77kB/3.379MB                                            [34m0.5s [0m
+   ⠼ 854bbbc098b2 Downloading    426kB/41.96MB                                            [34m0.5s [0m
+   ⠼ d30ccb81ed57 Downloading  23.99kB/2.341MB                                            [34m0.5s [0m
+   ⠼ 74a11634af6c Waiting                                                                 [34m0.5s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
+ ⠹ web [33m4 layers[0m [[32m⣀⠀⠀⠀[0m] 4.994MB/47.68MB Pulling                                            [34m2.2s [0m
+   ⠴ 1207c741d8c9 Downloading  900.3kB/3.379MB                                            [34m0.6s [0m
+   ⠴ 854bbbc098b2 Downloading  3.832MB/41.96MB                                            [34m0.6s [0m
+   ⠴ d30ccb81ed57 Downloading  261.3kB/2.341MB                                            [34m0.6s [0m
+   ⠴ 74a11634af6c Waiting                                                                 [34m0.6s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
+ ⠸ web [33m4 layers[0m [[32m⣀⡀⠀⠀[0m]  8.43MB/47.68MB Pulling                                            [34m2.3s [0m
+   ⠦ 1207c741d8c9 Downloading  900.3kB/3.379MB                                            [34m0.7s [0m
+   ⠦ 854bbbc098b2 Downloading  7.236MB/41.96MB                                            [34m0.7s [0m
+   ⠦ d30ccb81ed57 Downloading  294.1kB/2.341MB                                            [34m0.7s [0m
+   ⠦ 74a11634af6c Waiting                                                                 [34m0.7s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
+ ⠼ web [33m4 layers[0m [[32m⣤⣀⠀⠀[0m] 12.76MB/47.68MB Pulling                                            [34m2.4s [0m
+   ⠧ 1207c741d8c9 Downloading  1.825MB/3.379MB                                            [34m0.8s [0m
+   ⠧ 854bbbc098b2 Downloading  10.64MB/41.96MB                                            [34m0.8s [0m
+   ⠧ d30ccb81ed57 Downloading  294.1kB/2.341MB                                            [34m0.8s [0m
+   ⠧ 74a11634af6c Waiting                                                                 [34m0.8s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/5
+ ⠴ web [33m4 layers[0m [[32m⣿⣀⡀⠀[0m]    11MB/44.3MB  Pulling                                            [34m2.5s [0m
+   [32m✔[0m 1207c741d8c9 Download complete [32m[0m                                                      [34m0.9s [0m
+   ⠇ 854bbbc098b2 Downloading  10.64MB/41.96MB                                            [34m0.9s [0m
+   ⠇ d30ccb81ed57 Downloading  359.7kB/2.341MB                                            [34m0.9s [0m
+   ⠇ 74a11634af6c Waiting                                                                 [34m0.9s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/5
+ ⠦ web [33m4 layers[0m [[32m⣿⣀⡀⠀[0m] 14.84MB/44.3MB  Pulling                                            [34m2.6s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete [32m[0m                                                          [34m0.9s [0m
+   ⠏ 854bbbc098b2 Downloading  14.48MB/41.96MB                                            [34m1.0s [0m
+   ⠏ d30ccb81ed57 Downloading  359.7kB/2.341MB                                            [34m1.0s [0m
+   ⠏ 74a11634af6c Waiting                                                                 [34m1.0s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/5
+ ⠧ web [33m4 layers[0m [[32m⣿⣄⣀⠀[0m] 19.39MB/44.3MB  Pulling                                            [34m2.7s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete [32m[0m                                                          [34m0.9s [0m
+   ⠋ 854bbbc098b2 Downloading  18.77MB/41.96MB                                            [34m1.1s [0m
+   ⠋ d30ccb81ed57 Downloading  621.8kB/2.341MB                                            [34m1.1s [0m
+   ⠋ 74a11634af6c Waiting                                                                 [34m1.1s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/5
+ ⠇ web [33m4 layers[0m [[32m⣿⣤⣀⠀[0m] 24.11MB/44.3MB  Pulling                                            [34m2.8s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete [32m[0m                                                          [34m0.9s [0m
+   ⠙ 854bbbc098b2 Downloading  23.46MB/41.96MB                                            [34m1.2s [0m
+   ⠙ d30ccb81ed57 Downloading  654.6kB/2.341MB                                            [34m1.2s [0m
+   ⠙ 74a11634af6c Waiting                                                                 [34m1.2s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/5
+ ⠏ web [33m4 layers[0m [[32m⣿⣦⣄⠀[0m] 29.23MB/44.3MB  Pulling                                            [34m2.9s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete [32m[0m                                                          [34m0.9s [0m
+   ⠹ 854bbbc098b2 Downloading  28.15MB/41.96MB                                            [34m1.3s [0m
+   ⠹ d30ccb81ed57 Downloading  1.081MB/2.341MB                                            [34m1.3s [0m
+   ⠹ 74a11634af6c Waiting                                                                 [34m1.3s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/5
+ ⠋ web [33m4 layers[0m [[32m⣿⣶⣦⠀[0m] 34.48MB/44.3MB  Pulling                                            [34m3.0s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete [32m[0m                                                          [34m0.9s [0m
+   ⠸ 854bbbc098b2 Downloading  32.84MB/41.96MB                                            [34m1.4s [0m
+   ⠸ d30ccb81ed57 Downloading  1.633MB/2.341MB                                            [34m1.4s [0m
+   ⠸ 74a11634af6c Waiting                                                                 [34m1.4s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 2/5
+ ⠙ web [33m4 layers[0m [[32m⣿⣷⣦⣿[0m] 38.73MB/44.3MB  Pulling                                            [34m3.1s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete   [32m[0m                                                        [34m0.9s [0m
+   ⠼ 854bbbc098b2 Downloading       37.1MB/41.96MB                                        [34m1.5s [0m
+   ⠼ d30ccb81ed57 Downloading      1.633MB/2.341MB                                        [34m1.5s [0m
+   [32m✔[0m 74a11634af6c Download complete [32m[0m                                                      [34m1.5s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 4/5
+ ⠹ web [33m4 layers[0m [[32m⣿⣿⣿⣿[0m]      0B/0B      Pulling                                            [34m3.2s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete   [32m[0m                                                        [34m0.9s [0m
+   [32m✔[0m 854bbbc098b2 Download complete [32m[0m                                                      [34m1.5s [0m
+   [32m✔[0m d30ccb81ed57 Download complete [32m[0m                                                      [34m1.6s [0m
+   [32m✔[0m 74a11634af6c Download complete [32m[0m                                                      [34m1.5s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 4/5
+ ⠸ web [33m4 layers[0m [[32m⣿⣿⣿⣿[0m]      0B/0B      Pulling                                            [34m3.3s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete   [32m[0m                                                        [34m0.9s [0m
+   [32m✔[0m 854bbbc098b2 Download complete [32m[0m                                                      [34m1.5s [0m
+   [32m✔[0m d30ccb81ed57 Download complete [32m[0m                                                      [34m1.6s [0m
+   [32m✔[0m 74a11634af6c Download complete [32m[0m                                                      [34m1.5s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 4/5
+ ⠼ web [33m4 layers[0m [[32m⣿⣿⣿⣿[0m]      0B/0B      Pulling                                            [34m3.4s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete   [32m[0m                                                        [34m0.9s [0m
+   [32m✔[0m 854bbbc098b2 Download complete [32m[0m                                                      [34m1.5s [0m
+   [32m✔[0m d30ccb81ed57 Download complete [32m[0m                                                      [34m1.6s [0m
+   [32m✔[0m 74a11634af6c Download complete [32m[0m                                                      [34m1.5s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 4/5
+ ⠴ web [33m4 layers[0m [[32m⣿⣿⣿⣿[0m]      0B/0B      Pulling                                            [34m3.5s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete   [32m[0m                                                        [34m0.9s [0m
+   [32m✔[0m 854bbbc098b2 Download complete [32m[0m                                                      [34m1.5s [0m
+   [32m✔[0m d30ccb81ed57 Download complete [32m[0m                                                      [34m1.6s [0m
+   [32m✔[0m 74a11634af6c Download complete [32m[0m                                                      [34m1.5s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 4/5
+ ⠦ web [33m4 layers[0m [[32m⣿⣿⣿⣿[0m]      0B/0B      Pulling                                            [34m3.6s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete   [32m[0m                                                        [34m0.9s [0m
+   [32m✔[0m 854bbbc098b2 Download complete [32m[0m                                                      [34m1.5s [0m
+   [32m✔[0m d30ccb81ed57 Download complete [32m[0m                                                      [34m1.6s [0m
+   [32m✔[0m 74a11634af6c Download complete [32m[0m                                                      [34m1.5s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 4/5
+ ⠧ web [33m4 layers[0m [[32m⣿⣿⣿⣿[0m]      0B/0B      Pulling                                            [34m3.7s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete   [32m[0m                                                        [34m0.9s [0m
+   [32m✔[0m 854bbbc098b2 Download complete [32m[0m                                                      [34m1.5s [0m
+   [32m✔[0m d30ccb81ed57 Download complete [32m[0m                                                      [34m1.6s [0m
+   [32m✔[0m 74a11634af6c Download complete [32m[0m                                                      [34m1.5s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 4/5
+ ⠇ web [33m4 layers[0m [[32m⣿⣿⣿⣿[0m]      0B/0B      Pulling                                            [34m3.8s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete   [32m[0m                                                        [34m0.9s [0m
+   [32m✔[0m 854bbbc098b2 Download complete [32m[0m                                                      [34m1.5s [0m
+   [32m✔[0m d30ccb81ed57 Download complete [32m[0m                                                      [34m1.6s [0m
+   [32m✔[0m 74a11634af6c Download complete [32m[0m                                                      [34m1.5s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 5/5[0m
+ [32m✔[0m web [33m4 layers[0m [[32m⣿⣿⣿⣿[0m]      0B/0B      Pulled [32m[0m                                            [34m3.9s [0m
+   [32m✔[0m 1207c741d8c9 Pull complete [32m[0m                                                          [34m0.9s [0m
+   [32m✔[0m 854bbbc098b2 Pull complete [32m[0m                                                          [34m1.5s [0m
+   [32m✔[0m d30ccb81ed57 Pull complete [32m[0m                                                          [34m1.6s [0m
+   [32m✔[0m 74a11634af6c Pull complete [32m[0m                                                          [34m1.5s [0m
+[?25h[1A[1B[0G[?25l[+] Running 3/0
+ [32m✔[0m Container infra-db-1     [32mRunning[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-web-1    [32mCreated[0m                                                       [34m0.1s [0m
+[?25hAttaching to infra-web-1
+[36minfra-web-1  | [0mnode:internal/modules/cjs/loader:1147
+[36minfra-web-1  | [0m  throw err;
+[36minfra-web-1  | [0m  ^
+[36minfra-web-1  | [0m
+[36minfra-web-1  | [0mError: Cannot find module '/bash'
+[36minfra-web-1  | [0m    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+[36minfra-web-1  | [0m    at Module._load (node:internal/modules/cjs/loader:985:27)
+[36minfra-web-1  | [0m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+[36minfra-web-1  | [0m    at node:internal/main/run_main_module:28:49 {
+[36minfra-web-1  | [0m  code: 'MODULE_NOT_FOUND',
+[36minfra-web-1  | [0m  requireStack: []
+[36minfra-web-1  | [0m}
+[36minfra-web-1  | [0m
+[36minfra-web-1  | [0mNode.js v20.10.0
+[36minfra-web-1 exited with code 0
+[0m[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./script.sh dc dev up web[?1l>[?2004l
+]2;./script.sh dc dev up web]1;./script.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 3/0
+ [32m✔[0m Container infra-db-1     [32mRunning[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-web-1    [32mRecreated[0m                                                     [34m0.0s [0m
+[?25hAttaching to infra-web-1
+[36minfra-web-1  | [0mnode:internal/modules/cjs/loader:1147
+[36minfra-web-1  | [0m  throw err;
+[36minfra-web-1  | [0m  ^
+[36minfra-web-1  | [0m
+[36minfra-web-1  | [0mError: Cannot find module '/npm start:dev'
+[36minfra-web-1  | [0m    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+[36minfra-web-1  | [0m    at Module._load (node:internal/modules/cjs/loader:985:27)
+[36minfra-web-1  | [0m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+[36minfra-web-1  | [0m    at node:internal/main/run_main_module:28:49 {
+[36minfra-web-1  | [0m  code: 'MODULE_NOT_FOUND',
+[36minfra-web-1  | [0m  requireStack: []
+[36minfra-web-1  | [0m}
+[36minfra-web-1  | [0m
+[36minfra-web-1  | [0mNode.js v20.10.0
+[36minfra-web-1 exited with code 0
+[0m[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
+fwd-i-search: _[K[A[18C[1B[K[A[33C./script.sh dc dev up web[?1l>[?2004l[1B]2;./script.sh dc dev up web]1;./script.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 3/0
+ [32m✔[0m Container infra-db-1     [32mRunning[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-web-1    [32mRecreated[0m                                                     [34m0.0s [0m
+[?25hAttaching to infra-web-1
+[36minfra-web-1  | [0mnode:internal/modules/cjs/loader:1147
+[36minfra-web-1  | [0m  throw err;
+[36minfra-web-1  | [0m  ^
+[36minfra-web-1  | [0m
+[36minfra-web-1  | [0mError: Cannot find module '/home/node/app/npm start:dev'
+[36minfra-web-1  | [0m    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+[36minfra-web-1  | [0m    at Module._load (node:internal/modules/cjs/loader:985:27)
+[36minfra-web-1  | [0m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+[36minfra-web-1  | [0m    at node:internal/main/run_main_module:28:49 {
+[36minfra-web-1  | [0m  code: 'MODULE_NOT_FOUND',
+[36minfra-web-1  | [0m  requireStack: []
+[36minfra-web-1  | [0m}
+[36minfra-web-1  | [0m
+[36minfra-web-1  | [0mNode.js v20.10.0
+[36minfra-web-1 exited with code 0
+[0m[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./script.sh dc dev up web[?1l>[?2004l
+]2;./script.sh dc dev up web]1;./script.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 3/0
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-db-1     [32mRunning[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-web-1    [32mRecreated[0m                                                     [34m0.0s [0m
+[?25hAttaching to infra-web-1
+[36minfra-web-1  | [0mnpm ERR! code ENOENT
+[36minfra-web-1  | [0mnpm ERR! syscall open
+[36minfra-web-1  | [0mnpm ERR! path /home/node/app/package.json
+[36minfra-web-1  | [0mnpm ERR! errno -2
+[36minfra-web-1  | [0mnpm ERR! enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/node/app/package.json'
+[36minfra-web-1  | [0mnpm ERR! enoent This is related to npm not being able to find a file.
+[36minfra-web-1  | [0mnpm ERR! enoent 
+[36minfra-web-1  | [0m
+[36minfra-web-1  | [0mnpm ERR! A complete log of this run can be found in: /root/.npm/_logs/2023-12-03T09_31_08_153Z-debug-0.log
+[36minfra-web-1 exited with code 0
+[0m[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
+fwd-i-search: _[K[A[18C[1B[K[A[33C[?2004l[1B[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./script.sh dc dev up web[?1l>[?2004l
+]2;./script.sh dc dev up web]1;./script.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 3/0
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-db-1     [32mRunning[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-web-1    [32mRecreated[0m                                                     [34m0.0s [0m
+[?25hAttaching to infra-web-1
+[36minfra-web-1  | [0mnpm ERR! code ENOENT
+[36minfra-web-1  | [0mnpm ERR! syscall open
+[36minfra-web-1  | [0mnpm ERR! path /home/node/app/package.json
+[36minfra-web-1  | [0mnpm ERR! errno -2
+[36minfra-web-1  | [0mnpm ERR! enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/node/app/package.json'
+[36minfra-web-1  | [0mnpm ERR! enoent This is related to npm not being able to find a file.
+[36minfra-web-1  | [0mnpm ERR! enoent 
+[36minfra-web-1  | [0m
+[36minfra-web-1  | [0mnpm ERR! A complete log of this run can be found in: /root/.npm/_logs/2023-12-03T09_31_39_364Z-debug-0.log
+[36minfra-web-1 exited with code 0
+[0m[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../Dc  dc[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../dc.sh[1m [0m[0m stop dev[?1l>[?2004l
+]2;./dc.sh stop dev]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                       [34m0.0s [0m
+ ⠋ Container infra-redis-1  Stopping                                                      [34m0.1s [0m
+ ⠋ Container infra-db-1     Stopping                                                      [34m0.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                       [34m0.0s [0m
+ ⠙ Container infra-redis-1  Stopping                                                      [34m0.2s [0m
+ ⠙ Container infra-db-1     Stopping                                                      [34m0.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1  [32mRemoved[0m                                                       [34m0.3s [0m
+ ⠹ Container infra-db-1     Stopping                                                      [34m0.3s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.3s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.4s [0m
+ ⠋ Network infra_private-nw  Removing                                                     [34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/4
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.3s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.4s [0m
+ ⠙ Network infra_private-nw  Removing                                                     [34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/4
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.3s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.4s [0m
+ ⠹ Network infra_private-nw  Removing                                                     [34m0.2s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/4
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.3s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.4s [0m
+ ⠸ Network infra_private-nw  Removing                                                     [34m0.3s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 4/4[0m
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.3s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.4s [0m
+ [32m✔[0m Network infra_private-nw  [32mRemoved[0m                                                      [34m0.4s [0m
+[?25h[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h. [?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh stop dev[14Dscript.sh dc dev up web[?1l>[?2004l
+]2;./script.sh dc dev up web]1;./script.shzsh: no such file or directory: ./script.sh
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../dc.sh[1m [0m[0m dc   dc dev up web[?1l>[?2004l
+]2;./dc.sh dc dev up web]1;./dc.sh--- environment: dev
+
+parsing /home/gillesboisson/Projects/sandbox/nodejs-refresh/infra/docker-compose.dev.yml: yaml: unmarshal errors:
+  line 56: mapping key "depends_on" already defined at line 36
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh dc dev up web[?1l>[?2004l
+]2;./dc.sh dc dev up web]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                      [34m0.1s [0m
+ ⠋ Container infra-redis-1   Creating                                                     [34m0.0s [0m
+ ⠋ Container infra-db-1      Creating                                                     [34m0.0s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 4/3
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                      [34m0.1s [0m
+ [32m✔[0m Container infra-redis-1   [32mCreated[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-db-1      [32mCreated[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-web-1     [32mCreated[0m                                                      [34m0.0s [0m
+[?25hAttaching to infra-web-1
+[36minfra-web-1  | [0mnpm ERR! code ENOENT
+[36minfra-web-1  | [0mnpm ERR! syscall open
+[36minfra-web-1  | [0mnpm ERR! path /home/node/app/package.json
+[36minfra-web-1  | [0mnpm ERR! errno -2
+[36minfra-web-1  | [0mnpm ERR! enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/node/app/package.json'
+[36minfra-web-1  | [0mnpm ERR! enoent This is related to npm not being able to find a file.
+[36minfra-web-1  | [0mnpm ERR! enoent 
+[36minfra-web-1  | [0m
+[36minfra-web-1  | [0mnpm ERR! A complete log of this run can be found in: /root/.npm/_logs/2023-12-03T09_32_36_086Z-debug-0.log
+[36minfra-web-1 exited with code 0
+[0m[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh dc dev up web[4C up web [8D up web [8D up web [8Dd up webe up web[1C up webup web [8Dv up web[1C up web[1C[1C[1C web  web web r webu webn web[1C web- web- webr webm web[1C web[1C[3C sh[?1l>[?2004l
+]2;./dc.sh dc dev run --rm web sh]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Creating 2/0
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-db-1     [32mRunning[0m                                                       [34m0.0s [0m
+[?25h/home/node/app # [6n/home/node/app # [Jls
+[1;34mbuild[m
+/home/node/app # [6nls -all
+total 12
+drwxr-xr-x    3 root     root          4096 Dec  3 09:29 [1;34m.[m
+drwxr-sr-x    1 node     node          4096 Dec  3 09:32 [1;34m..[m
+drwxr-xr-x    2 root     root          4096 Dec  3 09:29 [1;34mbuild[m
+/home/node/app # [6nexit
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../d[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
+bck-i-search: _[K[A[18C[1B[K[A[33C[1Bbck-i-search: _[K[A[18C./dc.sh dc dev run --rm  web [4ms[24mh[1B[50Ds_[A[46C[21D[4ms[4mt[24mop dev       [2C    [24m  [1B[49Dt_[A[24C[1C[4mt[4mo[24m[1B[28Do_[A[23C[2C[4mo[4mp[24m[1B[28Dp_[A[22C[24ms[24mt[24mo[24mp[1B[K[A[41C[?1l>[?2004l[1B]2;./dc.sh stop dev]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                       [34m0.0s [0m
+ ⠋ Container infra-redis-1  Stopping                                                      [34m0.1s [0m
+ ⠋ Container infra-db-1     Stopping                                                      [34m0.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                       [34m0.0s [0m
+ ⠙ Container infra-redis-1  Stopping                                                      [34m0.2s [0m
+ ⠙ Container infra-db-1     Stopping                                                      [34m0.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                       [34m0.0s [0m
+ ⠹ Container infra-redis-1  Stopping                                                      [34m0.3s [0m
+ ⠹ Container infra-db-1     Stopping                                                      [34m0.3s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                       [34m0.0s [0m
+ ⠸ Container infra-redis-1  Stopping                                                      [34m0.4s [0m
+ [32m✔[0m Container infra-db-1     [32mRemoved[0m                                                       [34m0.3s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.4s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.3s [0m
+ ⠋ Network infra_private-nw  Removing                                                     [34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/4
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.4s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.3s [0m
+ ⠙ Network infra_private-nw  Removing                                                     [34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/4
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.4s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.3s [0m
+ ⠹ Network infra_private-nw  Removing                                                     [34m0.2s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 4/4[0m
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.4s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.3s [0m
+ [32m✔[0m Network infra_private-nw  [32mRemoved[0m                                                      [34m0.3s [0m
+[?25h[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh stop dev[8Ddc dev run --rm  web sh  [?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
+bck-i-search: _[K[A[18C./d[4mc[24m.sh stop dev[1B[35Dc_[A[20C[24mc[4Cd[4mc[4m [24mdev run --rm  web sh[1B[49D _[A[25C[1C[4m [4md[24m[1B[29Dd_[A[24C[2C[4md[4me[24m[1B[29De_[A[23C[24mc[24m [24md[24me[1Bfailing bck-i-search: c dec_[A[14C[1B[15D _[A[13C[1B[14Dd_[A[12C[1B[13Dc_[A[11C[9D                       [2C      [1B[K[A[33C[?2004l[1B[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
+bck-i-search: _[K[A[18C./dc.sh dc dev r[4mu[24mn --rm  web sh[1B[50Du_[A[33C[4mu[4mp[24m web  [2C      [1B[49Dp_[A[31C[24mu[24mp[1B[K[A[51C[3C[?1l>[?2004l[1B]2;./dc.sh dc dev up web]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 3/0
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                      [34m0.1s [0m
+ [32m✔[0m Volume "infra_db"         [32mCreated[0m                                                      [34m0.0s [0m
+ [32m✔[0m Volume "infra_redis"      [32mCreated[0m                                                      [34m0.0s [0m
+ ⠋ Container infra-redis-1   Creating                                                     [34m0.0s [0m
+ ⠋ Container infra-db-1      Creating                                                     [34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 6/5
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                      [34m0.1s [0m
+ [32m✔[0m Volume "infra_db"         [32mCreated[0m                                                      [34m0.0s [0m
+ [32m✔[0m Volume "infra_redis"      [32mCreated[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mCreated[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-db-1      [32mCreated[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-web-1     [32mCreated[0m                                                      [34m0.0s [0m
+[?25hAttaching to infra-web-1
+[36minfra-web-1  | [0mnpm ERR! code ENOENT
+[36minfra-web-1  | [0mnpm ERR! syscall open
+[36minfra-web-1  | [0mnpm ERR! path /home/node/app/package.json
+[36minfra-web-1  | [0mnpm ERR! errno -2
+[36minfra-web-1  | [0mnpm ERR! enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/node/app/package.json'
+[36minfra-web-1  | [0mnpm ERR! enoent This is related to npm not being able to find a file.
+[36minfra-web-1  | [0mnpm ERR! enoent 
+[36minfra-web-1  | [0m
+[36minfra-web-1  | [0mnpm ERR! A complete log of this run can be found in: /root/.npm/_logs/2023-12-03T09_34_54_314Z-debug-0.log
+[36minfra-web-1 exited with code 0
+[0m[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh dc dev up web[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
+bck-i-search: _[K[A[18C./dc.[4ms[24mh dc dev up web[1B[40Ds_[A[22C[24ms[2C[4ms[4mt[24mop dev     [1B[39Dt_[A[24C[8Dcurl htt[24mp[24ms://wannapplay-prod.dotify.eu/files/default/th_medium/que[4ms[4mt[4mi[24mon-mark-10.jpg
+bck-i-search: sti_[K[A[14D[2C[4mi[4mo[24m[1B[9Co_[A[15D[A[29C[K[1B[K[1B[K[A[A[33C[1Bbck-i-search: _[K[A[18C./dc.[4ms[24mh dc dev up web[1B[40Ds_[A[22C[24ms[2C[4ms[4mt[24mop dev     [1B[39Dt_[A[24C[8Dcurl htt[24mp[24ms://wannapplay-prod.dotify.eu/files/default/th_medium/que[4ms[4mt[4mi[24mon-mark-10.jpg[1Bbck-i-search: sti_[K[A[14D[2C[4mi[4mo[24m[1B[9Co_[A[15D[A[29C[K[1B[K[1B[K[A[A[33C[?2004l[1B[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../Dc  dc.sh[1m [0m[0m dc dec --c    v diw  own[?1l>[?2004l
+]2;./dc.sh dc dev down]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                       [34m0.0s [0m
+ ⠋ Container infra-db-1     Stopping                                                      [34m0.1s [0m
+ ⠋ Container infra-redis-1  Stopping                                                      [34m0.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                       [34m0.0s [0m
+ ⠙ Container infra-db-1     Stopping                                                      [34m0.2s [0m
+ ⠙ Container infra-redis-1  Stopping                                                      [34m0.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                       [34m0.0s [0m
+ ⠹ Container infra-db-1     Stopping                                                      [34m0.3s [0m
+ ⠹ Container infra-redis-1  Stopping                                                      [34m0.3s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-db-1     [32mRemoved[0m                                                       [34m0.4s [0m
+ ⠸ Container infra-redis-1  Stopping                                                      [34m0.4s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.4s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.5s [0m
+ ⠋ Network infra_private-nw  Removing                                                     [34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/4
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.4s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.5s [0m
+ ⠙ Network infra_private-nw  Removing                                                     [34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/4
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.4s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.5s [0m
+ ⠹ Network infra_private-nw  Removing                                                     [34m0.2s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/4
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.4s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.5s [0m
+ ⠸ Network infra_private-nw  Removing                                                     [34m0.3s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 4/4[0m
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.4s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.5s [0m
+ [32m✔[0m Network infra_private-nw  [32mRemoved[0m                                                      [34m0.4s [0m
+[?25h[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../dc.sh[1m [0m[0m up dev    run   dev run --rm wev b sh[?1l>[?2004l
+]2;./dc.sh up dev run --rm web sh]1;./dc.sh--- environment: dev
+
+./dc.sh: line 217: up: command not found
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh up dev run --rm web sh[P[20C [21D[P[20C [21Dd dev run --rm web sh[20Dc dev run --rm web sh[20D[?1l>[?2004l
+]2;./dc.sh dc dev run --rm web sh]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Creating 1/0
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                      [34m0.1s [0m
+ ⠋ Container infra-redis-1   Creating                                                     [34m0.0s [0m
+ ⠋ Container infra-db-1      Creating                                                     [34m0.0s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Creating 3/3[0m
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                      [34m0.1s [0m
+ [32m✔[0m Container infra-redis-1   [32mCreated[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-db-1      [32mCreated[0m                                                      [34m0.0s [0m
+[?25h[1A[1B[0G[?25l[+] Running 0/0
+ ⠋ Container infra-redis-1  Starting                                                      [34m0.1s [0m
+ ⠋ Container infra-db-1     Starting                                                      [34m0.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ ⠙ Container infra-redis-1  Starting                                                      [34m0.2s [0m
+ ⠙ Container infra-db-1     Starting                                                      [34m0.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ ⠹ Container infra-redis-1  Starting                                                      [34m0.3s [0m
+ [32m✔[0m Container infra-db-1     [32mStarted[0m                                                       [34m0.3s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Container infra-redis-1  [32mStarted[0m                                                       [34m0.4s [0m
+ [32m✔[0m Container infra-db-1     [32mStarted[0m                                                       [34m0.3s [0m
+[?25h/home/node/app # [6n/home/node/app # [Jls
+[1;34mbuild[m
+/home/node/app # [6nls -all
+total 12
+drwxr-xr-x    3 root     root          4096 Dec  3 09:29 [1;34m.[m
+drwxr-sr-x    1 node     node          4096 Dec  3 09:35 [1;34m..[m
+drwxr-xr-x    2 root     root          4096 Dec  3 09:29 [1;34mbuild[m
+/home/node/app # [6nexit
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hcchown -R 1000:100 . 0 .schown -R 1[2C0:1[2C0 .[20Dsuchown -R 1[2C0:1[2C0 .[20Ddchown -R 1[2C0:1[2C0 .[20Dochown -R 1[2C0:1[2C0 .[20D chown -R 1[2C0:1[2C0 .[20D[?1l>[?2004l
+]2;sudo chown -R 1000:1000 .]1;chown[sudo] password for gillesboisson: 
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
+bck-i-search: _[K[A[18C[4ms[24mudo chown -R 1000:1000 .[1B[44Ds_[A[17C[24mrm -fr ./[4ms[4mr[24mc/**/*.js     [1B[43Dr_[A[25C[24ms[24mr[1Bfailing bck-i-search: srt_[A[16C[1B[17Do_[A[15C[1B[16Dp_[A[14C[1B[16D_ [A[14C[1B[17D_ [A[15C[4ms[4mr[24m[1B[8P[16C_         [A[16C[9D[4ms[24mudo chow[24mn[24m -R 1000:1000 .[1B[43D_ [A[16C[24m./dc.sh [4ms[4mt[24mop dev         [1B[43Dt_[A[24C[1C[4mt[4mo[24m[1B[28Do_[A[23C[2C[4mo[4mp[24m[1B[28Dp_[A[22C[24ms[24mt[24mo[24mp[1B[K[A[41C[?1l>[?2004l[1B]2;./dc.sh stop dev]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 0/0
+ ⠋ Container infra-db-1     Stopping                                                      [34m0.1s [0m
+ ⠋ Container infra-redis-1  Stopping                                                      [34m0.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ ⠙ Container infra-db-1     Stopping                                                      [34m0.2s [0m
+ ⠙ Container infra-redis-1  Stopping                                                      [34m0.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ ⠹ Container infra-db-1     Stopping                                                      [34m0.3s [0m
+ ⠹ Container infra-redis-1  Stopping                                                      [34m0.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container infra-db-1     [32mRemoved[0m                                                       [34m0.3s [0m
+ ⠸ Container infra-redis-1  Stopping                                                      [34m0.4s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.3s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.4s [0m
+ ⠋ Network infra_private-nw  Removing                                                     [34m0.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.3s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.4s [0m
+ ⠙ Network infra_private-nw  Removing                                                     [34m0.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.3s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.4s [0m
+ ⠹ Network infra_private-nw  Removing                                                     [34m0.3s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                      [34m0.3s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                      [34m0.4s [0m
+ [32m✔[0m Network infra_private-nw  [32mRemoved[0m                                                      [34m0.4s [0m
+[?25h[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh stop dev[16Dsudo chown -R 1000:1000 .[25D./dc.sh dc dev run --rm web sh[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../dc.sh[1m [0m[0m upbackups[1m/[0m[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../dc.sh[1m [0m[0m up dev dup dev cup dev  up dev [1C[1C dev  dev dev [1C[4C up web[?1l>[?2004l
+]2;./dc.sh dc dev up web]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                      [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 4/1
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                      [34m0.1s [0m
+ [32m✔[0m Container infra-redis-1   [32mCreated[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-db-1      [32mCreated[0m                                                      [34m0.0s [0m
+ [32m✔[0m Container infra-web-1     [32mCreated[0m                                                      [34m0.0s [0m
+[?25hAttaching to infra-web-1
+[36minfra-web-1  | [0mnpm ERR! code ENOENT
+[36minfra-web-1  | [0mnpm ERR! syscall open
+[36minfra-web-1  | [0mnpm ERR! path /home/node/app/package.json
+[36minfra-web-1  | [0mnpm ERR! errno -2
+[36minfra-web-1  | [0mnpm ERR! enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/node/app/package.json'
+[36minfra-web-1  | [0mnpm ERR! enoent This is related to npm not being able to find a file.
+[36minfra-web-1  | [0mnpm ERR! enoent 
+[36minfra-web-1  | [0m
+[36minfra-web-1  | [0mnpm ERR! A complete log of this run can be found in: /root/.npm/_logs/2023-12-03T09_36_54_509Z-debug-0.log
+[36minfra-web-1 exited with code 0
+[0m[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
+bck-i-search: _[K[A[18Csudo chown -[4mR[24m 1000:1000 .[1B[44Dr_[A[29C[12D./dc.sh dc d[24mev [4mr[4mu[24mn --rm web sh[1B[48Du_[A[31C[1C[4mu[4mn[24m[1B[35Dn_[A[30C[24mr[24mu[24mn[1B[K[A[48C[?1l>[?2004l[1B]2;./dc.sh dc dev run --rm web sh]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Creating 2/0
+ [32m✔[0m Container infra-db-1     [32mRunning[0m                                                       [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                       [34m0.0s [0m
+[?25h/home/node/app # [6n/home/node/app # [Jls
+[1;34mbuild[m
+/home/node/app # [6ncd bui/home/node/app # cd build/[J
+/home/node/app/build # [6nls
+/home/node/app/build # [6nls -all
+total 8
+drwxr-xr-x    2 node     node          4096 Dec  3 09:29 [1;34m.[m
+drwxr-xr-x    3 node     node          4096 Dec  3 09:29 [1;34m..[m
+/home/node/app/build # [6nexit
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccd apps[?1l>[?2004l
+]2;cd apps]1;cd[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps]1;..-refresh/apps]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps\[0m[27m[24m[J[01;32m➜  [36mapps[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls -all[?1l>[?2004l
+]2;ls --color=tty -all]1;lstotal 16
+drwxrwxr-x 4 gillesboisson gillesboisson 4096 Nov 30 17:00 [0m[01;34m.[0m
+drwxrwxr-x 9 gillesboisson gillesboisson 4096 Dec  3 10:31 [01;34m..[0m
+drwxrwxr-x 5 gillesboisson gillesboisson 4096 Nov 30 16:33 [01;34mweb[0m
+drwxrwxr-x 4 gillesboisson gillesboisson 4096 Nov 30 17:00 [01;34mworker[0m
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps]1;..-refresh/apps]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps\[0m[27m[24m[J[01;32m➜  [36mapps[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccd [?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps]1;..-refresh/apps]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps\[0m[27m[24m[J[01;31m➜  [36mapps[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccd web[1m/[0m[0m [?1l>[?2004l
+]2;cd web]1;cd[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;32m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls -all[?1l>[?2004l
+]2;ls --color=tty -all]1;lstotal 180
+drwxrwxr-x 5 gillesboisson gillesboisson   4096 Nov 30 16:33 [0m[01;34m.[0m
+drwxrwxr-x 4 gillesboisson gillesboisson   4096 Nov 30 17:00 [01;34m..[0m
+drwxrwxr-x 5 gillesboisson gillesboisson   4096 Nov 30 16:34 [01;34mbuild[0m
+drwxrwxr-x 3 gillesboisson gillesboisson   4096 Dec  3 10:08 [01;34mnode_modules[0m
+-rw-rw-r-- 1 gillesboisson gillesboisson   1128 Dec  3 10:14 package.json
+drwxrwxr-x 4 gillesboisson gillesboisson   4096 Nov 30 16:34 [01;34msrc[0m
+-rw-rw-r-- 1 gillesboisson gillesboisson    179 Nov 30 16:04 tsconfig.json
+-rw-rw-r-- 1 gillesboisson gillesboisson 153871 Nov 29 13:55 yarn.lock
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;32m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;31m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hls -all       [?2004l
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;31m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls -all[?1l>[?2004l
+]2;ls --color=tty -all]1;lstotal 180
+drwxrwxr-x 5 gillesboisson gillesboisson   4096 Nov 30 16:33 [0m[01;34m.[0m
+drwxrwxr-x 4 gillesboisson gillesboisson   4096 Nov 30 17:00 [01;34m..[0m
+drwxrwxr-x 5 gillesboisson gillesboisson   4096 Nov 30 16:34 [01;34mbuild[0m
+drwxrwxr-x 3 gillesboisson gillesboisson   4096 Dec  3 10:08 [01;34mnode_modules[0m
+-rw-rw-r-- 1 gillesboisson gillesboisson   1128 Dec  3 10:14 package.json
+drwxrwxr-x 4 gillesboisson gillesboisson   4096 Nov 30 16:34 [01;34msrc[0m
+-rw-rw-r-- 1 gillesboisson gillesboisson    179 Nov 30 16:04 tsconfig.json
+-rw-rw-r-- 1 gillesboisson gillesboisson 153871 Nov 29 13:55 yarn.lock
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;32m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccd build[1m/[0m[0m [?1l>[?2004l
+]2;cd build]1;cd[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web/build]1;..pps/web/build]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web/build\[0m[27m[24m[J[01;32m➜  [36mbuild[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls -all[?1l>[?2004l
+]2;ls --color=tty -all]1;lstotal 28
+drwxrwxr-x 5 gillesboisson gillesboisson 4096 Nov 30 16:34 [0m[01;34m.[0m
+drwxrwxr-x 5 gillesboisson gillesboisson 4096 Nov 30 16:33 [01;34m..[0m
+-rw-rw-r-- 1 gillesboisson gillesboisson 1015 Dec  3 10:22 app.js
+-rw-rw-r-- 1 gillesboisson gillesboisson  811 Dec  3 10:22 app.js.map
+drwxrwxr-x 2 gillesboisson gillesboisson 4096 Nov 30 16:34 [01;34mmiddlewares[0m
+drwxrwxr-x 3 gillesboisson gillesboisson 4096 Nov 30 16:34 [01;34mroutes[0m
+drwxrwxr-x 4 gillesboisson gillesboisson 4096 Nov 30 16:09 [01;34mweb[0m
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web/build]1;..pps/web/build]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web/build\[0m[27m[24m[J[01;32m➜  [36mbuild[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hCCD ../[?1l>[?2004l
+]2;CD ../]1;CDzsh: command not found: CD
+[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web/build]1;..pps/web/build]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web/build\[0m[27m[24m[J[01;31m➜  [36mbuild[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps/web]1;..resh/apps/web]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps/web\[0m[27m[24m[J[01;32m➜  [36mweb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh/apps]1;..-refresh/apps]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh/apps\[0m[27m[24m[J[01;32m➜  [36mapps[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                               ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [?2004l
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hcd ..     
+bck-i-search: _[K[A[18Cl[4ms[24m -all[1B[26Ds_[A[18C.[24m/dc.sh [4mst[24mop dev[1B[34Dt_[A[24C[1C[4mt[4mo[24m[1B[28Do_[A[23C[2C[4mo[4mp[24m[1B[28Dp_[A[22C[24ms[24mt[24mo[24mp[1B[K[A[41C[?1l>[?2004l[1B]2;./dc.sh stop dev]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                    [34m0.0s [0m
+ ⠋ Container infra-redis-1  Stopping                                                   [34m0.1s [0m
+ ⠋ Container infra-db-1     Stopping                                                   [34m0.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                    [34m0.0s [0m
+ ⠙ Container infra-redis-1  Stopping                                                   [34m0.2s [0m
+ ⠙ Container infra-db-1     Stopping                                                   [34m0.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                    [34m0.0s [0m
+ ⠹ Container infra-redis-1  Stopping                                                   [34m0.3s [0m
+ ⠹ Container infra-db-1     Stopping                                                   [34m0.3s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+ [32m✔[0m Container infra-web-1    [32mRemoved[0m                                                    [34m0.0s [0m
+ ⠸ Container infra-redis-1  Stopping                                                   [34m0.4s [0m
+ [32m✔[0m Container infra-db-1     [32mRemoved[0m                                                    [34m0.4s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                   [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                   [34m0.4s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                   [34m0.4s [0m
+ ⠋ Network infra_private-nw  Removing                                                  [34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/4
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                   [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                   [34m0.4s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                   [34m0.4s [0m
+ ⠙ Network infra_private-nw  Removing                                                  [34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/4
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                   [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                   [34m0.4s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                   [34m0.4s [0m
+ ⠹ Network infra_private-nw  Removing                                                  [34m0.2s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 4/4[0m
+ [32m✔[0m Container infra-web-1     [32mRemoved[0m                                                   [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mRemoved[0m                                                   [34m0.4s [0m
+ [32m✔[0m Container infra-db-1      [32mRemoved[0m                                                   [34m0.4s [0m
+ [32m✔[0m Network infra_private-nw  [32mRemoved[0m                                                   [34m0.3s [0m
+[?25h[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh stop dev[16Dcd ..           [11DCD[3C/ls -allcd build[8Dls -all cd web [?2004l
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../dc.sh[1m [0m[0m sup    dc dv  ev up web[?1l>[?2004l
+]2;./dc.sh dc dev up web]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                   [34m0.1s [0m
+ ⠋ Container infra-db-1      Creating                                                  [34m0.0s [0m
+ ⠋ Container infra-redis-1   Creating                                                  [34m0.0s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 4/3
+ [32m✔[0m Network infra_private-nw  [32mCreated[0m                                                   [34m0.1s [0m
+ [32m✔[0m Container infra-db-1      [32mCreated[0m                                                   [34m0.0s [0m
+ [32m✔[0m Container infra-redis-1   [32mCreated[0m                                                   [34m0.0s [0m
+ [32m✔[0m Container infra-web-1     [32mCreated[0m                                                   [34m0.0s [0m
+[?25hAttaching to infra-web-1
+[36minfra-web-1  | [0mnpm ERR! code ENOENT
+[36minfra-web-1  | [0mnpm ERR! syscall open
+[36minfra-web-1  | [0mnpm ERR! path /var/app/package.json
+[36minfra-web-1  | [0mnpm ERR! errno -2
+[36minfra-web-1  | [0mnpm ERR! enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/var/app/package.json'
+[36minfra-web-1  | [0mnpm ERR! enoent This is related to npm not being able to find a file.
+[36minfra-web-1  | [0mnpm ERR! enoent 
+[36minfra-web-1  | [0m
+[36minfra-web-1  | [0mnpm ERR! A complete log of this run can be found in: /root/.npm/_logs/2023-12-03T09_41_01_369Z-debug-0.log
+[36minfra-web-1 exited with code 0
+[0m[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh dc dev up web[13Dstop dev     [16Dcd ..           [11D[?2004l
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
+bck-i-search: _[K[A[18C./dc.sh dc dev run --[4mr[24mm web sh[1B[49Dr_[A[38C[4mr[4mu[24m[4C[24mr[1B[40Du_[A[31C[1C[4mu[4mn[24m[1B[35Dn_[A[30C[24mr[24mu[24mn[1B[K[A[49C[?1l>[?2004l[1B]2;./dc.sh dc dev run --rm web sh]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Creating 2/0
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                    [34m0.0s [0m
+ [32m✔[0m Container infra-db-1     [32mRunning[0m                                                    [34m0.0s [0m
+[?25h/var/app # [6n/var/app # [Jls
+/var/app # [6nls -all
+total 8
+drwxr-xr-x    2 node     node          4096 Dec  3 09:29 [1;34m.[m
+drwxr-xr-x    1 root     root          4096 Dec  3 09:41 [1;34m..[m
+/var/app # [6nexit
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh dc dev run --rm web sh[15Dup web         [9D[13Dstop dev     [8Ddc dev up webrun --rm web sh[30D                              [30D./dc.sh dc dev run --rm web sh[?1l>[?2004l
+]2;./dc.sh dc dev run --rm web sh]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Creating 2/0
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                    [34m0.0s [0m
+ [32m✔[0m Container infra-db-1     [32mRunning[0m                                                    [34m0.0s [0m
+[?25h/var/app # [6n/var/app # [Jls
+/var/app # [6nexit
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh dc dev run --rm web sh[?1l>[?2004l
+]2;./dc.sh dc dev run --rm web sh]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Creating 2/0
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                    [34m0.0s [0m
+ [32m✔[0m Container infra-db-1     [32mRunning[0m                                                    [34m0.0s [0m
+[?25h/var/app # [6n/var/app # [Jls
+[1;34mbuild[m
+/var/app # [6nls a-a[J[J[J^C
+/var/app # [6nexit
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh dc dev run --rm web sh[?1l>[?2004l
+]2;./dc.sh dc dev run --rm web sh]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Creating 2/0
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                    [34m0.0s [0m
+ [32m✔[0m Container infra-db-1     [32mRunning[0m                                                    [34m0.0s [0m
+[?25h/var/app # [6n/var/app # [Jls
+[1;34mbuild[m
+/var/app # [6ncd bui/var/app # cd build/[J
+/var/app/build # [6nls -al
+total 8
+drwxr-xr-x    2 node     node          4096 Dec  3 09:29 [1;34m.[m
+drwxr-xr-x    3 node     node          4096 Dec  3 09:29 [1;34m..[m
+/var/app/build # [6nexit
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;31m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./dc.sh dc dev run --rm web sh[?1l>[?2004l
+]2;./dc.sh dc dev run --rm web sh]1;./dc.sh--- environment: dev
+
+[1A[1B[0G[?25l[+] Creating 2/0
+ [32m✔[0m Container infra-redis-1  [32mRunning[0m                                                    [34m0.0s [0m
+ [32m✔[0m Container infra-db-1     [32mRunning[0m                                                    [34m0.0s [0m
+[?25h/var/app # [6n/var/app # [Jid
+uid=0(root) gid=0(root) groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel),11(floppy),20(dialout),26(tape),27(video)
+/var/app # [6necho $UID
+
+/var/app # [6nid ^C
+/var/app # [6nls -all
+total 12
+drwxr-xr-x    3 node     node          4096 Dec  3 09:29 [1;34m.[m
+drwxr-xr-x    1 root     root          4096 Dec  3 09:45 [1;34m..[m
+drwxr-xr-x    2 node     node          4096 Dec  3 09:29 [1;34mbuild[m
+/var/app # [6nid -u node
+1000
+/var/app # [6nmkdir test
+/var/app # [6nexit
+[1m[7m%[27m[1m[0m                                                                                            ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m nnode[?1l>[?2004l
+]2;node]1;nodeWelcome to Node.js v20.1.0.
+Type ".help" for more information.
+[1G[0J> [3Gex[90mport[39m[5G[0Ki[1G[0J> ex[5G[90mport[39m[5G[90mport[39m[5G[0K[1G[0J> e[4G[1G[0J> [3Gconso[90mle[39m[8G
+[90mObject [console] { log: [Function: log], warn: [Function: warn],...[39m[8G[1A[1B[2K[1A[0Kl[90me[39m[9G
+[90mObject [console] { log: [Function: log], warn: [Function: warn],...[39m[9G[1A[1B[2K[1A[0Ke
+[90mObject [console] { log: [Function: log], warn: [Function: warn],...[39m[10G[1A[1B[2K[1A.l[90mog[39m[12G
+[90m[Function: log][39m[12G[1A[1B[2K[1A[0Ko[90mg[39m[13G
+[90m[Function: log][39m[13G[1A[1B[2K[1A[0Kg
+[90m[Function: log][39m[14G[1A[1B[2K[1A[1G[0J> console.lo[13G[90mg[39m[13G
+[90m[Function: log][39m[13G[1A[1B[2K[1A[0K[1G[0J> console.l[12G[90mog[39m[12G
+[90m[Function: log][39m[12G[1A[1B[2K[1A[0K[1G[0J> console.[11G[1G[0J> console[10G
+[90mObject [console] { log: [Function: log], warn: [Function: warn],...[39m[10G[1A[1B[2K[1A[1G[0J> consol[9G[90me[39m[9G
+[90mObject [console] { log: [Function: log], warn: [Function: warn],...[39m[9G[1A[1B[2K[1A[0K[1G[0J> conso[8G[90mle[39m[8G
+[90mObject [console] { log: [Function: log], warn: [Function: warn],...[39m[8G[1A[1B[2K[1A[0K[1G[0J> cons[7G[1G[0J> con[6G[1G[0J> co[5G[1G[0J> c[4G[1G[0J> [3Gproc[90mess[39m[7G
+[90mprocess { version: 'v20.1.0', versions: { node: '20.1.0', acorn:...[39m[7G[1A[1B[2K[1A[0Ke[90mss[39m[8G
+[90mprocess { version: 'v20.1.0', versions: { node: '20.1.0', acorn:...[39m[8G[1A[1B[2K[1A[0Ks[90ms[39m[9G
+[90mprocess { version: 'v20.1.0', versions: { node: '20.1.0', acorn:...[39m[9G[1A[1B[2K[1A[0Ks
+[90mprocess { version: 'v20.1.0', versions: { node: '20.1.0', acorn:...[39m[10G[1A[1B[2K[1A.e
+[90mundefined[39m[12G[1A[1B[2K[1An[90mv[39m[13G
+[90m{ GJS_DEBUG_TOPICS: 'JS ERROR;JS LOG', USER: 'gillesboisson', XD...[39m[13G[1A[1B[2K[1A[0Kv
+[90m{ GJS_DEBUG_TOPICS: 'JS ERROR;JS LOG', USER: 'gillesboisson', XD...[39m[14G[1A[1B[2K[1A.D
+[90mundefined[39m[16G[1A[1B[2K[1AB[90mUS_SESSION_BUS_ADDRESS[39m[17G
+[90m'unix:path=/run/user/1000/bus'[39m[17G[1A[1B[2K[1A[0K_
+[90mundefined[39m[18G[1A[1B[2K[1AJ
+[90mundefined[39m[19G[1A[1B[2K[1A[1G[0J> process.env.DB_[18G
+[90mundefined[39m[18G[1A[1B[2K[1AH
+[90mundefined[39m[19G[1A[1B[2K[1AO
+[90mundefined[39m[20G[1A[1B[2K[1AS
+[90mundefined[39m[21G[1A[1B[2K[1AT
+[90mundefined[39m[22G[1A[1B[2K[1A
+[90mundefined[39m
+[1G[0J> [3Gex[90mport[39m[5G[0Kit
+Uncaught ReferenceError: exit is not defined
+[1G[0J> [3Gec[1G[0J> e[4G[1G[0J> [3G
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+[1G[0J> [3G
+[1m[7m%[27m[1m[0m                                                                    ]2;gillesboisson@pop-os:~/Projects/sandbox/nodejs-refresh]1;..odejs-refresh]7;file://pop-os/home/gillesboisson/Projects/sandbox/nodejs-refresh\[0m[27m[24m[J[01;32m➜  [36mnodejs-refresh[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
+bck-i-search: _[K[A[18C[?2004l[1B[K[A[33C[1B
+Script done on 2023-12-03 10:49:05+01:00 [COMMAND_EXIT_CODE="0"]

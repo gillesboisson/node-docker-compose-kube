@@ -1,0 +1,28 @@
+# common definitions set here in the file provider
+
+http:
+  middlewares:
+    #this auth is here to protect monitoring services by traefik before they're routing to.
+    # proxyMonitoringAuth:
+    #   basicAuth:
+    #     realm: "Monitoring"
+    #     # removeHeader: true
+    #     # headerField: "X-MonitorAuth-User"
+    #     users:
+    #       - "scopopop:$apr1$la05324h$88hqPyLSfzkcf.oTGHaCv0" #scopopop:K4rfkFMzkhqrPI1tP08R
+
+    #https://docs.traefik.io/middlewares/compress/
+    gzipResponseCompress:
+      compress: {}
+
+    #https://docs.traefik.io/middlewares/headers/
+    # globalSecurityHeaders:
+    #   headers:
+    #     customFrameOptionsValue: "SAMEORIGIN"
+    #     sslRedirect: true
+    #     forceSTSHeader: true
+    #     stsSeconds: 15552000 #180 days
+    #     stsIncludeSubdomains: true
+    #     browserXssFilter: true
+    #     contentTypeNosniff: true
+    #     referrerPolicy: "strict-origin-when-cross-origin"

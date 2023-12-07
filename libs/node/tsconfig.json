@@ -1,0 +1,12 @@
+{
+    "extends": "@noderefresh/shared/tsconfig.node.json",
+    
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "build",
+        "sourceMap": true,
+        // !! bee-queue <> redis issue
+        "skipLibCheck": true,
+    },
+    
+}

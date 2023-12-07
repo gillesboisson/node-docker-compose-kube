@@ -1,0 +1,31 @@
+{
+  "name": "node-refresh-project",
+  "version": "0.0.1",
+  "main": "index.js",
+  "private": true,
+  "contributors": [
+    "Gilles Boisson <gillesboisson@gmail.com>"
+  ],
+  "license": "UNLICENSED",
+  "scripts": {
+    "clean": "lerna clean && rm -rf ./node_modules && lerna run clean",
+    "build:production": "lerna run build:production",
+    "build:dev": "lerna run build:dev",
+    "build": "lerna run build",
+    "web:start:dev": "yarn --cwd apps/web start:dev",
+    "web:start": "yarn --cwd apps/web start",
+    "worker:start:dev": "yarn --cwd apps/worker start:dev",
+    "worker:start": "yarn --cwd apps/worker start"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": {
+    "packages": [
+      "apps/**",
+      "libs/**"
+    ]
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}

@@ -1,0 +1,25 @@
+
+
+services:
+  
+ 
+  mysql-cli:
+    image: mysql:5
+    volumes:
+      - "./docker/sql/seeds:/var/data/db/seeds"
+      - ./volumes/db/dumps:/var/data/db/dumps
+      - ./backups:/var/data/db/backups
+    networks:
+      - private-nw
+
+
+  wait-for:
+    image: busybox:1.34
+    networks:
+      - private-nw
+    command:
+      [
+        "/bin/sh",
+        "-c",
+        'until nc -zv $$DOMAIN $$PORT -w1; do echo "waiting for $$DOMAIN"; sleep 1; done',
+      ]

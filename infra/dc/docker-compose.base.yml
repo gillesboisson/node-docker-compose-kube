@@ -1,0 +1,57 @@
+services:
+  # reverse-proxy serving the application
+  nginx:
+    build:
+      context: ./docker
+      dockerfile: nginx.local.dockerfile
+    
+    networks:
+      - private-nw
+
+  mysql:
+    image: mysql:5.5.47
+    restart: always
+
+    networks:
+      - private-nw
+
+ 
+  postgres:
+    image: postgres:16.1-alpine3.18
+    restart: always
+
+    networks:
+      - private-nw
+
+    environment:
+      POSTGRES_PORT: "${DB_PORT}"
+      POSTGRES_DB: "${DB_DATABASE}"
+      POSTGRES_USER: "${DB_USERNAME}"
+      POSTGRES_PASSWORD: "${DB_PASSWORD}"
+
+  redis:
+    image: redis:7.2-alpine
+    restart: always
+
+    command: >
+      --requirepass ${REDIS_PASSWORD} --port ${REDIS_PORT}
+    
+
+    networks:
+      - private-nw
+
+
+    
+  traefik:
+    image: traefik:v2.5
+    container_name: traefik
+
+    environment:
+      TZ: "Europe/Paris"
+
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      
+
+
+

@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-web  # Sets Deployment name
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: node-web
+  template:
+    metadata:
+      labels:
+        app: node-web
+    spec:
+      containers:
+        - name: node-web
+          image: gillesboisson/node-refresh-web-prod:latest # Sets Image
+          resources:
+            limits:
+              memory: "1Gi"
+              cpu: "1"
+          ports:
+            - containerPort: 3000
+          
+          envFrom:
+            - configMapRef:
+                name: app-config
+          
+          imagePullPolicy: Always
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-worker  # Sets Deployment name
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: node-worker
+  template:
+    metadata:
+      labels:
+        app: node-worker
+    spec:
+      containers:
+        - name: node-worker
+          image: gillesboisson/node-refresh-worker-prod:latest # Sets Image
+          resources:
+            limits:
+              memory: "1Gi"
+              cpu: "1"
+          ports:
+            - containerPort: 3000
+          
+          envFrom:
+            - configMapRef:
+                name: app-config
+          env:
+            - name: APP_WORKERS
+              value: MY_QUEUE
+          
+          imagePullPolicy: Always

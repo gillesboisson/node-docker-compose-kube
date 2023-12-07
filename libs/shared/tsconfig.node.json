@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "target": "es2021",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "build",
+        "strictNullChecks": true,
+        
+    },
+    
+    "lib": [
+        "es2015"
+    ]
+}
